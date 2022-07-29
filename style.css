@@ -18,30 +18,21 @@ header {
 }
 
 #ik{
-    width: 75px;
-    height: fit-content;
-    position:relative;
-    right: 120px;
-    bottom: 2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    width: 90px;
 }
 
 #headerName{
-    position: fixed;
-    text-align: center;
-    justify-content: center;
+    
     font-weight: bold;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 #headerDiv{
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: fit-content;
+    
 }
 
 #headerNameLink{
@@ -59,19 +50,20 @@ nav {
     border-color: blue;
     background-color: blue;
     color: white;
-    font-size:12px;
-    margin-right: 15px;
+    font-size:16px;
+    margin-right: 10px;
     width: max-content;
     height: max-content;
     text-decoration: none;
-    border-radius: 15px;
-    box-shadow: 7px 7px 5px lightblue;
+    border-radius: 50px;
+    box-shadow: 10px 10px 3px lightblue;
     
 }
 .navLinks:hover {
-    background-color: black;
+    background-color: red;
     color: white;
-    border-color: black;
+    border-color: red;
+    box-shadow: 10px 10px 0px blue;
     
 }
 
@@ -84,9 +76,9 @@ nav {
     width:50%;
     height: 100px;
     border-style: solid;
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
     border-color: blue;
     
 }
