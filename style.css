@@ -85,7 +85,7 @@ nav {
 #article{
     background-image: url(pictures/r34.jpg);
     background-size: cover;
-    opacity: 0.9;
+    opacity: 1;
     border-style: solid;
     font-weight: bold;
     color: white;
@@ -100,9 +100,17 @@ nav {
     float: left;
     position: relative;
     bottom: 15px;
+    font-style:oblique;
+    font-weight: bolder;
+    font-variant: small-caps;
+    font-size: large;
+    
 }
 #language{
-    padding-left: 2rem;
+    padding-left: 4rem;
+}
+#skills{
+    padding-left: 4rem;
 }
 #aside {
     background-color: white;

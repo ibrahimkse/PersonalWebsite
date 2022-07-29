@@ -1,13 +1,13 @@
 const quizData = [
     {
-        question: "What is the meaning of life",
+        question: "What is the meaning of life?",
         a: "Doing something useful",
         b: "earning money",
         c: "Fall in love", 
         d: "CODE",
         correct: "d" 
     }, {
-        question: "What is the best programming language",
+        question: "What is the best programming language?",
         a: "JAVA",
         b: "C++", 
         c: "Python",
